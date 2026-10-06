@@ -1,0 +1,8 @@
+{
+  "name": "wolf-plugin",
+  "description": "Personal collection of GitHub Copilot skills.",
+  "version": "0.1.0",
+  "author": { "name": "mwolford" },
+  "license": "MIT",
+  "skills": "skills/"
+}
