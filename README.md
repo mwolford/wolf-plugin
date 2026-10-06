@@ -34,7 +34,7 @@ Reading ADO items requires an ADO MCP connection (or pasted work item text); upd
 | `product-owner` | Coordinates the backlog skills to scope, draft, refine, and review ADO work items while leaving product decisions to you. |
 | `software-engineering-manager` | Asks the PO Feature-level refinement questions and proposes Stories for engineering review; engineers can use it too. |
 
-The agents are defined in `agents/`. Select one with `/agent` in Copilot CLI (or choose it from the installed plugin's agents in the Copilot app). They use only the skills needed for the request and propose field-by-field edits for approval before changing ADO items. Backlog prioritization and cross-backlog triage do not yet have dedicated skills.
+The agents are defined in `agents/`. Select `wolf-plugin:product-owner` or `wolf-plugin:software-engineering-manager` with `/agent` in Copilot CLI (or choose one from the installed plugin's agents in the Copilot app). They use only the skills needed for the request and propose field-by-field edits for approval before changing ADO items. Backlog prioritization and cross-backlog triage do not yet have dedicated skills.
 
 ## Adding a new skill
 
