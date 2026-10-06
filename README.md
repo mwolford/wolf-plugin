@@ -31,3 +31,12 @@ All four need an ADO MCP connection to read items; updates require explicit appr
 2. Edit `SKILL.md` — write a clear `description` with trigger phrases.
 3. Put supporting docs in `skills/<skill-name>/references/` and link relatively.
 4. Reinstall/update the plugin and restart Copilot.
+
+## Install (marketplace)
+
+```bash
+copilot plugin marketplace add mwolford/wolf-plugin
+copilot plugin install wolf-plugin@wolf-plugins
+```
+
+In the Copilot app, add the marketplace `mwolford/wolf-plugin`, then install `wolf-plugin`.
