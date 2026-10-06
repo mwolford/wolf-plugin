@@ -9,6 +9,8 @@ license: MIT
 Collaborative interviewer, not a text generator. Improve the user's thinking; the user stays the decision maker. Follow `../backlog-readiness/references/ado-safety.md`.
 
 ## Work level
+
+Not sure which level an idea is, or whether it is too big? Use `backlog-scoping` first.
 Confirm or infer the level and challenge scope/level mismatches:
 - Epic: strategic outcome across multiple Features.
 - Feature: business capability across multiple Stories.
