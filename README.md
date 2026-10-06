@@ -18,7 +18,11 @@ copilot plugin install ./path/to/wolf-plugin
 
 | Skill | Purpose |
 |---|---|
-| `backlog-coach` | Coaching modes (Create, Refine, Review, Split, Sequence, Consistency Check) for Azure DevOps backlog items. Needs an ADO MCP connection to read/update items; updates require approval. |
+| `backlog-story-coach` | Interviews you while creating/refining an ADO work item (max 3 questions at a time). |
+| `backlog-hygiene` | Lints wording, terminology consistency and testability; field-by-field fixes. |
+| `backlog-readiness` | Definition of Ready verdict, splitting and sequencing. |
+
+All three need an ADO MCP connection to read items; updates require explicit approval (`skills/backlog-readiness/references/ado-safety.md`).
 
 ## Adding a new skill
 
