@@ -30,3 +30,8 @@
 - Target roughly one quarter or one release per Epic (heuristic).
 - Group Features by outcome/value slice; put shared enablers in the first Epic that needs them.
 - Park unvalidated placeholders in a backlog/"Later" Epic instead of the active one.
+
+## Proposed restructure checks
+- [ ] Every proposed Epic has a "Verb + outcome" title (not a theme label like "Decide what to keep").
+- [ ] The fate of the original Epic is stated (retire vs keep as parent).
+- [ ] A retitled original Epic does not remain monolithic.

@@ -19,8 +19,9 @@ Walk one Epic and its children, report problems, and propose a restructure. Neve
 1. **Tree summary** – Epic, child count, iteration/date spread.
 2. **Findings table** – Item | Issue | Proposed fix or re-level.
 3. **Epic scope verdict** – Monolith? Why (evidence).
-4. **Proposed restructure** – New Epics (outcome-style title, success measure to confirm), Features under each, Features to re-level (enabler/Task/Story), merge or drop candidates. Order by dependency/value, not by invented dates.
-5. **Questions** – Missing facts (owners, validation status, dates).
+4. **Proposed restructure** – New Epics (each with a real "Verb + outcome" title, never a theme label or working name; success measure to confirm), Features under each, Features to re-level (enabler/Task/Story), merge or drop candidates. Order by dependency/value, not by invented dates.
+5. **Fate of the original Epic** – Mandatory when proposing a split. Retitling alone leaves it monolithic. Options: (a) retire it: re-parent Features to the new Epics, close it with a pointer to them, move vision text to a wiki/link (recommended); (b) keep it as a parent/Initiative, which needs a custom work item type or tag because default ADO has no level above Epic.
+6. **Questions** – Missing facts (owners, validation status, dates).
 
 ## Rules
 - Read-only. Offer updates only as a list for explicit approval.
