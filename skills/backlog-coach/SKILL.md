@@ -1,7 +1,7 @@
 ---
 name: backlog-coach
 description: Coach product owners, engineering managers, architects, and engineers while creating or refining Azure DevOps Epics, Features, User Stories, Bugs, and Tasks. Use when the user asks to draft, groom, refine, review, split, size, sequence, or check the hygiene/readiness of backlog work, acceptance criteria, dependencies, terminology, or planning fields.
-license: Proprietary - internal use
+license: MIT
 ---
 
 # Backlog Coach
