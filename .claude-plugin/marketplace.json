@@ -9,7 +9,7 @@
     {
       "name": "wolf-plugin",
       "source": "./",
-      "description": "Azure DevOps product-owner agent and backlog coaching skills",
+      "description": "Azure DevOps product-owner and engineering-manager agents with backlog coaching skills",
       "version": "0.1.0"
     }
   ]
