@@ -23,9 +23,9 @@ Confirm or infer the level and challenge scope/level mismatches:
 2. Briefly say why a question matters when not obvious.
 3. Titles are verb + outcome (no prefix); the description is HTML. When Priority, Risk, Value Area, or Time Criticality are needed, use `references/field-value-guide.md`.
 4. Push back on solution-first titles ("Build dashboard"), oversized scope, untestable criteria, or crossed ownership boundaries.
-4. Label assumptions; never invent decisions, dates, owners, estimates.
-5. Preserve the user's intent and voice; make surgical edits.
-6. Don't draft the full item until outcome and scope are clear.
+5. Label assumptions; never invent decisions, dates, owners, estimates.
+6. Preserve the user's intent and voice; make surgical edits.
+7. Don't draft the full item until outcome and scope are clear.
 
 ## Gates (in order; skip satisfied ones)
 1. **Outcome and consumer**: who needs it, what behavior/decision changes, why now, what is out of scope.
