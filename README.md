@@ -1,2 +1,28 @@
 # wolf-plugin
-Skills for GHC App I am playing with
+
+Personal GitHub Copilot plugin for housing and authoring my own skills.
+
+## Install
+
+```
+copilot plugin install mwolford/wolf-plugin
+```
+
+Or for local development:
+
+```
+copilot plugin install ./path/to/wolf-plugin
+```
+
+## Skills
+
+| Skill | Purpose |
+|---|---|
+| `backlog-coach` | Coaching modes (Create, Refine, Review, Split, Sequence, Consistency Check) for Azure DevOps backlog items. Needs an ADO MCP connection to read/update items; updates require approval. |
+
+## Adding a new skill
+
+1. Copy `skills/_template` to `skills/<skill-name>` (folder name = `name` in frontmatter).
+2. Edit `SKILL.md` — write a clear `description` with trigger phrases.
+3. Put supporting docs in `skills/<skill-name>/references/` and link relatively.
+4. Reinstall/update the plugin and restart Copilot.
