@@ -9,7 +9,7 @@
     {
       "name": "wolf-plugin",
       "source": "./",
-      "description": "Azure DevOps backlog coaching skills: story coach, hygiene, readiness, scoping",
+      "description": "Azure DevOps product-owner agent and backlog coaching skills",
       "version": "0.1.0"
     }
   ]

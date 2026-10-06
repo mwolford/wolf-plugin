@@ -1,6 +1,6 @@
 # wolf-plugin
 
-Personal GitHub Copilot plugin for housing and authoring my own skills.
+Personal GitHub Copilot plugin for Azure DevOps backlog coaching.
 
 ## Install
 
@@ -25,6 +25,14 @@ copilot plugin install ./path/to/wolf-plugin
 | `backlog-tree-review` | Read-only Epic tree review: level mismatches, technical Features, and splitting a monolithic Epic into time-boxed Epics. |
 
 All five need an ADO MCP connection to read items; updates require explicit approval (`skills/backlog-readiness/references/ado-safety.md`).
+
+## Agent
+
+| Agent | Purpose |
+|---|---|
+| `product-owner` | Coordinates the backlog skills to scope, draft, refine, and review ADO work items while leaving product decisions to you. |
+
+The agent is defined in `agents/product-owner.agent.md`. Select it with `/agent` in Copilot CLI (or choose it from the installed plugin's agents in the Copilot app). It uses only the skills needed for the request and proposes field-by-field edits for approval before changing ADO items. Backlog prioritization and cross-backlog triage do not yet have dedicated skills.
 
 ## Adding a new skill
 
