@@ -1,6 +1,6 @@
 # wolf-plugin
 
-Personal GitHub Copilot plugin for housing and authoring my own skills.
+Personal GitHub Copilot plugin for Azure DevOps backlog coaching.
 
 ## Install
 
@@ -23,8 +23,18 @@ copilot plugin install ./path/to/wolf-plugin
 | `backlog-hygiene` | Lints wording, terminology consistency and testability; field-by-field fixes. |
 | `backlog-readiness` | Definition of Ready verdict, splitting and sequencing. |
 | `backlog-tree-review` | Read-only Epic tree review: level mismatches, technical Features, and splitting a monolithic Epic into time-boxed Epics. |
+| `feature-story-refinement` | Refines a Feature with the PO into vertical Stories/PBIs and checks coverage of its acceptance criteria. |
 
-All five need an ADO MCP connection to read items; updates require explicit approval (`skills/backlog-readiness/references/ado-safety.md`).
+Reading ADO items requires an ADO MCP connection (or pasted work item text); updates require explicit approval (`skills/backlog-readiness/references/ado-safety.md`).
+
+## Agent
+
+| Agent | Purpose |
+|---|---|
+| `product-owner` | Coordinates the backlog skills to scope, draft, refine, and review ADO work items while leaving product decisions to you. |
+| `software-engineering-manager` | Asks the PO Feature-level refinement questions and proposes Stories for engineering review; engineers can use it too. |
+
+The agents are defined in `agents/`. Select `wolf-plugin:product-owner` or `wolf-plugin:software-engineering-manager` with `/agent` in Copilot CLI (or choose one from the installed plugin's agents in the Copilot app). They use only the skills needed for the request and propose field-by-field edits for approval before changing ADO items. Backlog prioritization and cross-backlog triage do not yet have dedicated skills.
 
 ## Adding a new skill
 
