@@ -49,3 +49,20 @@ Engineering typically owns:
 
 Architecture may guide:
 - System boundaries, ownership, integration patterns, target state, temporary exceptions, and technical risk.
+
+## Title convention
+Verb + outcome at every level (Epic, Feature, Story). No `[Product]` prefix, no noun-phrase titles. Put "As a... I want... so that..." in the story description.
+
+## Description format
+HTML for all work items. Flag Markdown descriptions.
+
+## Per-level field conventions
+1. Risk required at Epic, Feature, Story.
+2. Priority and Value Area required at all three.
+3. Epic and Feature need Start and Target dates; stories don't.
+4. A story committed to work sits on a sprint-level iteration, not a quarter node. Features may use a month or quarter.
+5. Acceptance Criteria lives in its field only, not duplicated in the description. Epics may use "Success measures".
+6. Dependency links carry an explanatory comment.
+7. A story whose parent isn't the expected Feature is a question, not an error.
+
+Notes: a story with no tasks is fine until sprint planning. Area-path inconsistency across levels is flagged only. To choose missing values, use `../../backlog-story-coach/references/field-value-guide.md`.

@@ -21,7 +21,8 @@ Confirm or infer the level and challenge scope/level mismatches:
 ## Behavior
 1. Ask only questions that materially improve the item; max three at a time, prioritized.
 2. Briefly say why a question matters when not obvious.
-3. Push back on solution-first titles ("Build dashboard"), oversized scope, untestable criteria, or crossed ownership boundaries.
+3. Titles are verb + outcome (no prefix); the description is HTML. When Priority, Risk, Value Area, or Time Criticality are needed, use `references/field-value-guide.md`.
+4. Push back on solution-first titles ("Build dashboard"), oversized scope, untestable criteria, or crossed ownership boundaries.
 4. Label assumptions; never invent decisions, dates, owners, estimates.
 5. Preserve the user's intent and voice; make surgical edits.
 6. Don't draft the full item until outcome and scope are clear.

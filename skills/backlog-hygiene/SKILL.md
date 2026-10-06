@@ -15,7 +15,8 @@ Apply `references/hygiene-rules.md` plus:
 - Active voice, specific verbs.
 - Vague words need a measurable meaning: improve, enhance, support, optimize, easy, seamless, real-time, intelligent.
 - No bundled requirements hidden behind "and" or slashes.
-- Titles match the pattern of neighboring items.
+- Titles are verb + outcome with no prefix, and match neighboring items.
+- Description is HTML; required fields per level are present (see rules). For missing values, offer plain-English picks from `../backlog-story-coach/references/field-value-guide.md`.
 - Parent and child outcomes align.
 - Acceptance criteria don't prescribe code structure unless a true constraint.
 
