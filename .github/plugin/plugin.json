@@ -1,9 +1,9 @@
 {
   "name": "wolf-plugin",
   "description": "Azure DevOps backlog coaching agents and skills.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "mwolford" },
   "license": "MIT",
   "skills": "skills/",
-  "agents": "agents/"
+  "agents": ["agents/product-owner.agent.md", "agents/software-engineering-manager.agent.md"]
 }

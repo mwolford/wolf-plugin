@@ -2,7 +2,7 @@
   "name": "wolf-plugins",
   "metadata": {
     "description": "Personal GitHub Copilot skills by mwolford",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "owner": { "name": "mwolford" },
   "plugins": [
@@ -10,7 +10,7 @@
       "name": "wolf-plugin",
       "source": "./",
       "description": "Azure DevOps product-owner and engineering-manager agents with backlog coaching skills",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }
