@@ -22,7 +22,7 @@ copilot plugin install ./path/to/wolf-plugin
 
 ## Adding a new skill
 
-1. Copy `skills/_template` to `skills/<skill-name>` (folder name = `name` in frontmatter).
+1. Copy `templates/SKILL.md` to `skills/<skill-name>/SKILL.md` (folder name = `name` in frontmatter).
 2. Edit `SKILL.md` — write a clear `description` with trigger phrases.
 3. Put supporting docs in `skills/<skill-name>/references/` and link relatively.
 4. Reinstall/update the plugin and restart Copilot.
