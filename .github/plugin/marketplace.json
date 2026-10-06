@@ -1,0 +1,16 @@
+{
+  "name": "wolf-plugins",
+  "metadata": {
+    "description": "Personal GitHub Copilot skills by mwolford",
+    "version": "0.1.0"
+  },
+  "owner": { "name": "mwolford" },
+  "plugins": [
+    {
+      "name": "wolf-plugin",
+      "source": "./",
+      "description": "Azure DevOps backlog coaching skills: story coach, hygiene, readiness, scoping",
+      "version": "0.1.0"
+    }
+  ]
+}
